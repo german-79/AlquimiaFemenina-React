@@ -1,0 +1,164 @@
+@media (min-width: 480px) {
+    .nombreSitio {
+        font-size: 2.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    footer h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .servicio li {
+        font-size: 1rem;
+    }
+
+    .galeria {
+        max-width: 480px;
+    }
+
+    .iconosFooter a {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nombreSitio {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    footer h4 {
+        font-size: 1.1 rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .servicio li {
+        font-size: 1.1rem;
+    }
+
+    .galeria {
+        width: 768px;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .productos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+
+
+
+@media (min-width: 992px) {
+    .nombreSitio {
+        font-size: 3.5rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    footer h4 {
+        font-size: 1.2 rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+
+    .servicio li {
+        font-size: 1.2rem;
+    }
+
+    .galeria {
+        max-width: 900px;
+    }
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .nombreSitio {
+        font-size: 4rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    h3 {
+        font-size: 1.9rem;
+    }
+
+    footer h4 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .servicio li {
+        font-size: 1.3rem;
+    }
+
+    .productos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}

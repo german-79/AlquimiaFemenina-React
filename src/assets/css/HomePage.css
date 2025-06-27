@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+main {
+    padding: 10px;
+    background-color: rgba(236, 216, 216, 0.85);
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: rgb(218, 105, 124);
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: rgb(218, 105, 124);
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: rgb(218, 105, 124);
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+    color: rgb(218, 105, 124);
+}
+
+
+.fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

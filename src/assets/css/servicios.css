@@ -1,0 +1,62 @@
+.servicio li {
+    font-size: 0.9rem;
+    color: rgb(221, 152, 163);
+}
+
+article {
+    background-color: white;
+    border-radius: 8px;
+    color: rgb(221, 152, 163);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 18px;
+    transition: box-shadow 0.3s ease;
+}
+
+article:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 10);
+}
+
+article p {
+    color: rgb(221, 152, 163);
+    text-align: center;
+}
+
+.servicio {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+article img {
+    display: block;
+    height: 150px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.formularioLink {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.formularioLink p {
+    margin: 5px;
+}
+
+.formularioLink a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: rgb(221, 152, 163);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.formularioLink a:hover {
+    background-color: rgb(200, 130, 140);
+}

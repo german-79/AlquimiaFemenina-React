@@ -1,0 +1,55 @@
+.seccionTienda {
+    margin: 10px;
+    padding: 5px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.productos-item {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid rgb(224, 212, 200);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 7px rgba(226, 65, 65, 0.7);
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.productos-item>div {
+    margin-top: auto;
+}
+
+.productos-item p {
+    text-align: left;
+}
+
+.botonCarrito {
+    background-color: #e69fa9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    margin-top: auto;
+}
+
+
+.botonCarrito:hover {
+    background-color: rgb(173, 86, 98);
+}
+
+.precio {
+    font-weight: bold;
+    color: rgb(206, 118, 131);
+}

@@ -1,0 +1,29 @@
+.notfound-container {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #da697c;
+}
+
+.notfound-container h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.notfound-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.volver-inicio {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(218, 105, 124);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.volver-inicio:hover {
+    background-color: rgb(76, 223, 166); }

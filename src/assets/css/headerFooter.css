@@ -1,0 +1,149 @@
+/* header y footer*/
+
+header,
+footer {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    background: rgba(42, 123, 155, 0.03);
+    background: -webkit-linear-gradient(17deg, rgba(42, 123, 155, 0.37) 0%, rgba(87, 199, 133, 0.56) 50%, rgba(237, 221, 83, 1) 100%);
+    background: -moz-linear-gradient(17deg, rgba(42, 123, 155, 0.37) 0%, rgba(87, 199, 133, 0.56) 50%, rgba(237, 221, 83, 1) 100%);
+    background: linear-gradient(17deg, rgba(42, 123, 155, 0.37) 0%, rgba(87, 199, 133, 0.56) 50%, rgba(237, 221, 83, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2A7B9B08", endColorstr="#EDDD53", GradientType=0);
+}
+
+/* solo header */
+
+.header-superior {
+    display: flex;
+    height: 80%;
+    align-items: center;
+
+}
+
+
+/* barra de navegacion */
+
+nav {
+    display: flex;
+    height: 20%;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-top: auto;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 10px 6px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(218, 105, 124);
+    transition: 0.3s;
+
+}
+
+nav a:hover {
+    background-color: rgb(76, 223, 166);
+    color: white;
+}
+
+nav a.activo {
+    background-color: rgb(218, 105, 124);
+    color: white;
+    font-weight: bold; }
+
+.titulo {
+    flex: 1;
+    text-align: center;
+}
+
+.nombreSitio {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(209, 26, 123);
+    margin: 0;
+}
+
+.isologo img {
+    height: 100px;
+    width: auto;
+}
+
+
+
+/* solo footer */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer h4 {
+    font-size: 0.8rem;
+    color: rgb(218, 105, 124);
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Divido en 2 igual que el header */
+
+.footer-superior {
+    display: flex;
+    height: 90%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    height: 10%;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(223, 219, 219);
+}
+
+.iconosFooter {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.iconosFooter a {
+    color: rgb(218, 105, 124);
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.iconosFooter a:hover {
+    background-color: rgb(180, 169, 171);
+    color: rgb(145, 50, 173);
+}
