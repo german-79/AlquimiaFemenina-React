@@ -2,6 +2,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
+import ServDoula from "../assets/img/ServiciosDoula.svg"; 
+import ServPueri from "../assets/img/ServiciosPueri.svg";
+import ServRU from "../assets/img/ServiciosRitual.svg"; 
+import ServMTC from "../assets/img/ServiciosMTC.svg"; 
+
 // tengo que importar las imagenes y reemplazarlas por el nombre entre llaves en el src
 
 
@@ -15,7 +20,7 @@ function ServiciosPage() {
           <h1>Servicios</h1>
 
           <article>
-            <img src="src/assets/img/ServiciosDoula.svg" alt="Doula" />
+            <img src={ServDoula} alt="Doula" />
             <h2>Doula</h2>
             <p>
               Acompañamiento emocional y físico antes, durante y después del
@@ -29,7 +34,7 @@ function ServiciosPage() {
           </article>
 
           <article>
-            <img src="src/assets/img/ServiciosPueri.svg" alt="Puericultura" />
+            <img src={ServPueri} alt="Puericultura" />
             <h2>Puericultura</h2>
             <p>
               Asesoramiento personalizado en lactancia, sueño y crianza
@@ -44,8 +49,7 @@ function ServiciosPage() {
 
           <article>
             <img
-              src="src/assets/img/ServiciosRitual.svg"
-              alt="Rituales de Útero"
+              src={ServRU} alt="Rituales de Útero"
             />
             <h2>Rituales de Sanación de Útero</h2>
             <p>
@@ -60,7 +64,7 @@ function ServiciosPage() {
           </article>
 
           <article>
-            <img src="src/assets/img/ServiciosMTC.svg" alt="Medicina China" />
+            <img src={ServMTC} alt="Medicina China" />
             <h2>Medicina Tradicional China</h2>
             <p>
               Terapias energéticas para restaurar el equilibrio del cuerpo y la
